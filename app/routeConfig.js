@@ -1,5 +1,6 @@
 import NotFound from '@containers/NotFoundPage/Loadable';
 import HomeContainer from '@containers/HomeContainer/Loadable';
+import ArtistContainer from '@containers/ArtistContainer/Loadable';
 
 export const routeConfig = {
   repos: {
@@ -7,8 +8,17 @@ export const routeConfig = {
     route: '/',
     // add props to pass to HomeContainer
     props: {
-      maxwidth: 500,
+      maxwidth: 1000,
       padding: 20
+    },
+    exact: true
+  },
+  artists: {
+    component: ArtistContainer,
+    route: '/artists',
+    // add props to pass to HomeContainer
+    props: {
+      padding: 0
     },
     exact: true
   },

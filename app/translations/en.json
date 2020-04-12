@@ -6,5 +6,9 @@
   "search_query": "Search query: {repoName}",
   "matching_repos": "Total number of matching repos: {totalCount}",
   "something_went_wrong": "Sorry. Something went wrong! Please try again in sometime.",
-  "stories": "Go to Storybook"
+  "stories": "Go to Storybook",
+  "artist_search": "Search Artist",
+  "get_artists_details": "Enter your favorite artist name",
+  "search_term": "Search Term: {artistName}",
+  "matching_tracks": "Total number of matching Track: {resultCount}"
 }
